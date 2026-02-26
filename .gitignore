@@ -1,0 +1,127 @@
+############################
+# OS cruft
+############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+.Trash-*
+*.swp
+*.swo
+
+############################
+# Build outputs
+############################
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+out/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.cov
+*.opencover.xml
+*.xml.coverage
+
+############################
+# .NET tooling
+############################
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+# User secrets / local config
+**/secrets.json
+# dotnet global tools cache
+.dotnet/
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunch
+_NCrunch_*
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+############################
+# IDE / Editor settings
+############################
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+# Rider system/caches
+.idea/.idea.*
+.idea/**/shelf/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/contentModel.xml
+.idea/**/dictionaries
+.idea/**/libraries
+.idea/**/modules
+.idea/**/httpRequests/
+
+# VS Code
+.vscode/
+# But keep these VS Code files in git:
+!.vscode/launch.json
+!.vscode/tasks.json
+# If you add editor-specific settings you want tracked, unignore similarly:
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+############################
+# Resharper / Analyzer
+############################
+_ReSharper.*/
+*.DotSettings.user
+*.DotSettings
+
+############################
+# Logs & temp
+############################
+*.log
+logs/
+*.pid
+*.tmp
+*.temp
+temp/
+~$*
+
+############################
+# Security / Keys (if present)
+############################
+*.pfx
+*.p12
+*.key
+*.snk
+
+############################
+# Misc
+############################
+# Local environment files (if you choose to use them)
+.env
+.env.*
+# Coverage & reports from common tools
+coverage/
+coverage-report/
+lcov.info
