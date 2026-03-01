@@ -9,7 +9,8 @@ internal static class Program
     [
         new SellRebuyVsHoldCalculator(),       // existing one
         new SellTimingFromHereCalculator(),    // <-- NEW (from-here timing)
-        new TemplateCalculator(),
+
+        new TemplateCalculator(), // to remove once we have real calculators
     ];
 
     private static void Main()
